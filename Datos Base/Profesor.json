@@ -1,10 +1,12 @@
 {
+	"_id": ObjectId("5a875bdc04dbd5d5fa75eebb"),
 	Nombre: "José",
 	Apellidos: "Navas Sú",
 	Carnet: 182,
 	Cedula: 182018302	
 }
 {
+	"_id" : ObjectId("5a875bdc04dbd5d5fa75eeba"),
 	Nombre: "Luis",
 	Apellidos: "Salazar Guzman",
 	Carnet: 927,

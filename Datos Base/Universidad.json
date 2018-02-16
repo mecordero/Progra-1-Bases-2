@@ -1,9 +1,12 @@
 {
+	"_id": ObjectId("5a8755ca04dbd5d5fa75eead"),
    "Nombre": "UCR"
 }
 {
+	"_id": ObjectId("5a8755ca04dbd5d5fa75eeac"),
    "Nombre": "TEC"
 }
 {
+	"_id": ObjectId("5a8755ca04dbd5d5fa75eeab"),
    "Nombre": "UNA"
 }

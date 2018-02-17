@@ -1,11 +1,17 @@
-{"Nombre": "Marco Alejandro",
- "Apellidos": "Lucio Troya",
- "Carnet": 123}
-{"Nombre": " Melissa",
- "Apellidos": "Cordero Arias",
- "Carnet": 213}
- {"Nombre": "Daniel",
- "Apellidos": "Alvarado",
- "Carnet": 321}
- 
- 
+{
+	"_id" : ObjectId("5a88b7d304dbd5d5fa75ef7b"),
+	"Nombre": "Marco Alejandro",
+ 	"Apellidos": "Lucio Troya",
+ 	"Carnet": 123
+}
+{
+	"_id" : ObjectId("5a88b7d304dbd5d5fa75ef7a"),
+	"Nombre": " Melisa María",
+ 	"Apellidos": "Cordero Arias",
+ 	"Carnet": 213}
+ {
+	 "_id" : ObjectId("5a88b7d304dbd5d5fa75ef79"),
+	 "Nombre": "Daniel",
+ 	"Apellidos": "Alvarado",
+ 	"Carnet": 321
+ }

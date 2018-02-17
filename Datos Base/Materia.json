@@ -1,0 +1,21 @@
+{
+	"_id" : ObjectId("5a88bcae04dbd5d5fa75efd9"),
+	"Nombre" : "Matematica General",
+	"Codigo" : "MA0101",
+	"Creditos" : 2,
+	"Universidad" : ObjectId("5a8755ca04dbd5d5fa75eeac")
+}
+{
+	"_id" : ObjectId("5a88bcae04dbd5d5fa75efda"),
+	"Nombre" : "Introduccion a la programacion",
+	"Codigo" : "IC 1802",
+	"Creditos" : 3,
+	"Universidad" : ObjectId("5a8755ca04dbd5d5fa75eeac")
+}
+{
+	"_id" : ObjectId("5a88bcae04dbd5d5fa75efdb"),
+	"Nombre" : "Introduccion a la aministracion",
+	"Codigo" : "AD 1425",
+	"Creditos" : 2,
+	"Universidad" : ObjectId("5a8755ca04dbd5d5fa75eeab")
+}

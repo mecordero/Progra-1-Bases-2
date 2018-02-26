@@ -2,6 +2,47 @@ extends layout
 
 block content
   #banner.page-header
+    .row 
+      br
+      br
+      br
     .row
-      .col-lg-6
-        h1 Ingrese al Sistema de Registro 
+      .col-sm-3
+      .col-xs-11.col-sm-4
+        h1 Iniciar Sesion
+  .row
+    .col-sm-3
+    .col-xs-12.col-sm-4
+      form.form-horizontal(action="/ingresar", method="get", role="form")
+        .form-group
+          label.col-xs-10.col-sm-4.control-label(for="carnet") Carnet
+          .col-xs-8.col-sm-12 
+            input#carnet.form-control(carnet="carnet")
+        .form-group
+          label.col-xs-10.col-sm-4.control-label(for="clave") Clave
+          .col-xs-8.col-sm-12  
+            input#clave.form-control(type= "password",clave="clave")
+  .row
+    .col-sm-3
+    .col-xs-12.col-sm-6
+      &nbsp &nbsp &nbsp
+      input#Element1(type="radio", name="RadioGroup", checked="") 
+      |Estudiante
+      br
+      &nbsp &nbsp &nbsp
+      input#Element2(type="radio", name="RadioGroup") 
+      |Profesor
+  .row
+    .col-sm-3
+    .col-xs-4.col-sm-2
+      br
+      &nbsp &nbsp &nbsp
+      button.btn.btn-default.pull-right Ingresar
+  .row
+    .col-sm-3
+    .col-xs-4.col-sm-6
+      br
+      &nbsp &nbsp
+      a(href=/creacion/) ¿No tiene una cuenta? Cree una cuenta ahora
+
+    

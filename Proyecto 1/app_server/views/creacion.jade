@@ -1,0 +1,56 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row 
+      br
+      br
+      br
+    .row
+      .col-sm-3
+      .col-xs-11.col-sm-4
+        h1 Crear un usuario
+  .row
+    .col-sm-3
+    .col-xs-12.col-sm-4
+      form.form-horizontal(action="/crear", method="post", role="form")
+        .form-group
+          label.col-xs-10.col-sm-4.control-label(for="nombre") Nombre
+          .col-xs-8.col-sm-12 
+            input#nombre.form-control(nombre="nombre")
+        .form-group
+          label.col-xs-10.col-sm-4.control-label(for="apellidos") Apellidos
+          .col-xs-8.col-sm-12  
+            input#apellidos.form-control(apellidos="apellidos")
+        .form-group
+          label.col-xs-10.col-sm-4.control-label(for="institución") Institucion
+            select.form-control
+              option TEC
+              option UCR
+              option 3
+              option 4
+              option 5
+  .row
+    .col-sm-3
+    .col-xs-12.col-sm-6
+      &nbsp &nbsp &nbsp
+      input#Element1(type="radio", name="RadioGroup", checked="") 
+      |Estudiante
+      br
+      &nbsp &nbsp &nbsp
+      input#Element2(type="radio", name="RadioGroup") 
+      |Profesor
+  .row
+    .col-sm-3
+    .col-xs-4.col-sm-2
+      br
+      &nbsp &nbsp &nbsp
+      button.btn.btn-default.pull-right Registrarse
+  .row
+    .col-sm-3
+    .col-xs-4.col-sm-6
+      br
+      &nbsp &nbsp
+      a(href="/") Volver a la página principal
+
+    

@@ -1,0 +1,7 @@
+{
+  "name": "college-app",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.4"
+  }
+}

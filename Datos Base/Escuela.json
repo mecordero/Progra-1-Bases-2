@@ -1,20 +1,23 @@
 {
 	"_id" : ObjectId("5a88b96b04dbd5d5fa75ef9b"),
-	"Nombre": "Computacion",
- 	"Universidad":ObjectId("5a8755ca04dbd5d5fa75eead")
+	"Nombre": "Computación",
+    "Universidad": ObjectId("5a8755ca04dbd5d5fa75eeac"),
 }
 {
 	"_id" : ObjectId("5a88b96b04dbd5d5fa75ef9c"),
-	"Nombre": "Matematicas",
- 	"Universidad":ObjectId("5a8755ca04dbd5d5fa75eead")
+	"Nombre": "Matemáticas",
+    "Universidad": ObjectId("5a8755ca04dbd5d5fa75eead"),
 }
 {
 	"_id" : ObjectId("5a88b96b04dbd5d5fa75ef9e"),
-	"Nombre": "Administracion de empresas",
- 	"Universidad":ObjectId("5a8755ca04dbd5d5fa75eead")
+	"Nombre" : "Administracion de empresas",
+ 	"Universidad" : ObjectId("5a8755ca04dbd5d5fa75eead")
 }
 {
 	"_id" : ObjectId("5a88b96b04dbd5d5fa75ef9d"),
 	"Nombre": "Electronica",
  	"Universidad":ObjectId("5a8755ca04dbd5d5fa75eead")
 }
+
+
+

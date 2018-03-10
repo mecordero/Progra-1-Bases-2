@@ -2,16 +2,32 @@
 	"_id" : ObjectId("5a88b7d304dbd5d5fa75ef7b"),
 	"Nombre": "Marco Alejandro",
  	"Apellidos": "Lucio Troya",
- 	"Carnet": 123
+ 	"Carnet": 123,
+    "Universidad": ObjectId("5a8755ca04dbd5d5fa75eeac"),
+	"Escuela" : ObjectId("5a88b96b04dbd5d5fa75ef9b"),
+	"PlanAcademico":  ObjectId("5aa3d6eac2ea05e4106e8969"),
+	"Malla": "Malla 1",
+	"Cursos Matriculados": [
+		{"id": ObjectId("5aa3da56c2ea05e4106e8a32")}
+	]
 }
 {
 	"_id" : ObjectId("5a88b7d304dbd5d5fa75ef7a"),
 	"Nombre": " Melisa María",
  	"Apellidos": "Cordero Arias",
- 	"Carnet": 213}
+ 	"Carnet": 213,
+	"Universidad": ObjectId("5a8755ca04dbd5d5fa75eeac"),
+	"Escuela" : ObjectId("5a88b96b04dbd5d5fa75ef9b"),
+	"PlanAcademico":  ObjectId("5aa3d6eac2ea05e4106e8969") ,
+	"Malla": "Malla 2"
+}
  {
 	 "_id" : ObjectId("5a88b7d304dbd5d5fa75ef79"),
 	 "Nombre": "Daniel",
  	"Apellidos": "Alvarado",
- 	"Carnet": 321
+ 	"Carnet": 321,
+	 "Universidad": ObjectId("5a8755ca04dbd5d5fa75eeac"),
+	 "Escuela" : ObjectId("5a88b96b04dbd5d5fa75ef9b"),
+	 "PlanAcademico":  ObjectId("5aa3d6eac2ea05e4106e8969"),
+	 "Malla": "Malla 1"
  }

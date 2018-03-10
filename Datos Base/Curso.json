@@ -1,0 +1,12 @@
+{
+	"_id" : ObjectId("5aa3da56c2ea05e4106e8a31"),
+	"Materia" : ObjectId("5a88bcae04dbd5d5fa75efd9"),
+	"Grupo" : 1,
+	"Universidad" : ObjectId("5a8755ca04dbd5d5fa75eeac")
+}
+{
+	"_id" : ObjectId("5aa3da56c2ea05e4106e8a32"),
+	"Materia" : ObjectId("5a88bcae04dbd5d5fa75efd9"),
+	"Grupo" : 2,
+	"Universidad" : ObjectId("5a8755ca04dbd5d5fa75eeac")
+}
